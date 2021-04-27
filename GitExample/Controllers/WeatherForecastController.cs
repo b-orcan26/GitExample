@@ -32,5 +32,10 @@ namespace GitExample.Controllers
         {
             return BadRequest();
         }
+
+        public IActionResult Index2()
+        {
+            return Forbid();
+        }
     }
 }

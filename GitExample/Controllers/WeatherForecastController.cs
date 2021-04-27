@@ -23,5 +23,9 @@ namespace GitExample.Controllers
             _logger = logger;
         }
 
+        public IActionResult Index()
+        {
+            return Ok();
+        }
     }
 }

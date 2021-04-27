@@ -27,10 +27,5 @@ namespace GitExample.Controllers
         {
             return Ok();
         }
-
-        public IActionResult Index1()
-        {
-            return BadRequest();
-        }
     }
 }
